@@ -14,6 +14,53 @@
 .reviews {
     min-height: 100vh;
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.767), rgba(0, 0, 0, 0.733)), url(/images/pratama-ryan-bq4I_3cOf1s-unsplash.jpg);
-    background-size: contain;
-    background-position: top;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tray {
+    width: 80%;
+    height: 70%;
+    background-color: transparent;
+    box-shadow: 2px -3px 49px 0px rgba(0,0,0,0.43);
+-webkit-box-shadow: 2px -3px 49px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 2px -3px 49px 0px rgba(0,0,0,0.43);
+margin: 0 auto;
+border-radius: 3px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+gap: 1rem;
+padding: 2rem 0;
+}
+
+.review {
+    width: 70%;
+    background-color: rgb(216, 216, 216);
+    clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
+    height: 10rem;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.219), rgba(255, 255, 255, 0.418));
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 3px;
+    padding-left: 8rem;
+}
+
+.pic {
+    flex: 1;
+}
+
+.text {
+    flex: 3;
+}
+
+.review img {
+    width: 8rem;
+    height: 8rem;border-radius: 50%;
+
 }
