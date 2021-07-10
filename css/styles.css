@@ -10,3 +10,10 @@
 #showcase {
     min-height: 100vh;
 }
+
+.reviews {
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.767), rgba(0, 0, 0, 0.733)), url(/images/pratama-ryan-bq4I_3cOf1s-unsplash.jpg);
+    background-size: contain;
+    background-position: top;
+}
