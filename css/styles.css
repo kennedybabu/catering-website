@@ -1,0 +1,12 @@
+#house {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#showcase {
+    min-height: 100vh;
+}
