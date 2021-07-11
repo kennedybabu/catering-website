@@ -61,10 +61,53 @@ padding: 2rem 0;
 
 .review img {
     width: 8rem;
-    height: 8rem;border-radius: 50%;
-
+    height: 8rem;
+    border-radius: 50%;
 }
 
 .blockquote-footer {
-    margin-top: 1rem;
+    margin-top: -.5rem;
+    background-color: transparent;
+}
+
+.blockquote p {
+    margin-top: 4rem;
+}
+
+footer {
+    min-height: 20vh;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    margin-top: -1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p {
+    font-weight: 400;
+}
+
+input {
+    background-color: rgb(32, 32, 32);
+    border: 1px solid white;
+    color: white;
+    padding: 3px;    
+}
+
+.contact {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon {
+    width: 1rem;
+    height: auto;
+    filter: invert(1);
+}
+
+.submit {
+    border: none;
+    padding: 4px 8px;
+    background-color: rgb(252, 207, 6);
 }
